@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyGestureView">
+        <attr name="circle_conut" format="integer"/>
+        <attr name="select_color" format="color"/>
+        <attr name="defCirCleColor" format="color"/>
+        <attr name="outCircleRadius" format="float"/>
+        <attr name="interCircleRadius" format="float"/>
+    </declare-styleable>
+</resources>

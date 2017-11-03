@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                tools:context="com.example.a10341.gestureviewdemo.MainActivity">
+
+    <com.example.a10341.gestureviewdemo.MyGestureView
+        android:layout_height="400dp"
+        android:layout_width="400dp"
+        android:id="@+id/MyGestureView"/>
+        <!--&lt;!&ndash;app:select_color="#3366FF"&ndash;&gt;-->
+        <!--app:circle_conut="9"-->
+        <!--&lt;!&ndash;app:defCirCleColor="#ffccff"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:outCircleRadius="80"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:interCircleRadius="30"&ndash;&gt;-->
+        <!--&lt;!&ndash;&gt;&ndash;&gt;-->
+    <!--</com.example.a10341.gestureviewdemo.MyGestureView>-->
+</RelativeLayout>
